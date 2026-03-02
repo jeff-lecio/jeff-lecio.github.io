@@ -1,11 +1,10 @@
 ---
 layout: homepage
 ---
- <br> <br> <br>  <br>  <br>
-<div align="center">
-
-![prof_pic](jeff_profile_pic.png)
-
+<br>
+<div style="text-align: center;">
+  <img src="{{ '/assets/img/jeff_profile_pic.png' | relative_url }}" 
+       alt="Jefferson Leal">
 </div>
 <br><br> <br> 
 

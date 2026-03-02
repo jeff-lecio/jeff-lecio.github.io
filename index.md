@@ -2,15 +2,14 @@
 layout: homepage
 ---
  <br> <br> <br>  <br>  <br>
-![prof_pic](prof_pic.jpg)  
+![prof_pic](jeff_profile_pic.png)  
 <br><br> <br> 
 
 
-Hi! I am a postdoc at the [Data Science Institute at the University of Chicago](https://datascience.uchicago.edu/), working with [Moon Duchin](https://computerscience.uchicago.edu/people/moon-duchin/) at the [Data and Democracy Lab](https://data-democracy.org/). I recently received my PhD from the [Statistics Department at Columbia University](https://stat.columbia.edu/), where I was advised by [Michael Sobel](https://scholar.google.com/citations?user=cuKCFmcAAAAJ&hl=en). My first name is pronounced [Hayn], and my pronouns are they/them.
+Hi! I am a Ph.D. Candidate in Political Science at the [University of Rochester]([https://datascience.uchicago.edu/](https://www.sas.rochester.edu/psc/index.html)). My research examines how candidate strategy shapes public policy provision in developing democracies. I study how ideological positioning, far-right extremism, populism, and political experience affect public policy outcomes, drawing primarily on Brazilian local politics while engaging with broader comparative evidence. Methodologically, I am interested in causal inference, text-as-data, and machine learning.
 
-My research focuses on the intersection of statistics and political science, motivated by substantive questions from American politics--especially in public opinion polarization and redistricting. To operationalize and measure political phenomena, I apply diverse statistical methods: optimal transport, latent factor models, network theory, optimization, causal inference, and more. The topics I have been working on include developing new measures of ideological and affective polarization using the Wasserstein distance and measuring congressional social ties from roll call votes. I am also interested in studying race, ethnicity, and politics and statistical methods related to race from a critical theory perspective.
+Before coming to Rochester, I received my M.A. in political science and my B.A. degrees in economics and international relations from the University of São Paulo, in Brazil. In my free time, I love to hike and learn tango.
 
-Before Columbia, I was at MIT Media Lab's [Opera of the Future](https://www.media.mit.edu/groups/opera-of-the-future/overview/) group for an MS where I designed interactive AR musical experiences and helped produce hybrid acoustic+digital musical performances. I also received a BS from MIT in Electrical Engineering with a minor in Music.
 
  <br>  <br>
 
@@ -24,34 +23,22 @@ Before Columbia, I was at MIT Media Lab's [Opera of the Future](https://www.medi
 
 
 ## Research
- *Forthcoming in the Annals of Applied Statistics*. Hane Lee and Michael Sobel (2026). "[Measuring Public Opinion: “The Wasserstein Bipolarization Index”, with Application to Cross-National Attitudes Toward Mandatory Vaccination for COVID-19.](assets/files/WPI.pdf)"
+ *Forthcoming in the Annals of Applied Statistics*. Anderson Frey & Jefferson Leal. "When Crisis Hits, Does Experience Matter? Evidence from COVID-19 vaccination"
 <details>
   <summary>Abstract</summary>
-  Although the topic of opinion polarization receives much attention from the media, public opinion researchers and political scientists, the phenomenon itself has not been adequately characterized in either the lay or academic literature.  To study opinion polarization among the public, researchers compare the distributions of respondents to survey questions or track the distribution of responses to a question over time using ad-hoc methods and measures such as visual comparisons, variances, and bimodality coefficients. To remedy this situation, we build on the axiomatic approach in the economics literature on income bipolarization, specifying key properties a measure of bipolarization should satisfy: in particular, it should increase as the distribution spreads away from a center toward the poles and/or as clustering below or above this center increases.  We then show that measures of bipolarization used in public opinion research fail to satisfy one or more of these axioms. Next, we propose a p-Wasserstein polarization index that satisfies the axioms we set forth. Our index measures the dissimilarity between an observed distribution and a distribution with all the mass clustered on the lower and upper endpoints of the scale. We use our index to examine bipolarization in attitudes toward governmental COVID-19 vaccine mandates across 11 countries, finding the U.S and U.K are most polarized, China, France and India the least polarized, while the others (Brazil, Australia, Columbia, Canada, Italy, Spain) occupy an intermediate position.
+  Politicians often highlight prior office experience to appeal to voters, who seem to value this attribute. However, the role of political experience in determining actual policy outcomes remains overlooked by the literature, particularly during times of crisis when experience becomes uniquely salient to the electorate. This article examines how political experience affects policy implementation during a crisis using data on COVID-19 vaccinations across Brazilian municipalities in 2021. The findings show that vaccination rates were 12 p.p.\ higher in cities governed by incumbent mayors reelected in November 2020---who already had extensive experience managing the pandemic---compared to cities that elected newcomers. These effects cannot be attributed to bureaucratic turnover or differences in reelection incentives. They are also concentrated in municipalities severely affected by the pandemic earlier in 2020, supporting the argument that early crisis management experience, through learning-by-doing, significantly enhanced mayors’ performance during the vaccine rollout.
 </details>
 <br>
- *Working paper*. Hane Lee, Andrew Davison, and Zhiliang Ying. "[Measuring Social Ties from Roll Call Votes: A Fused Latent Factor and Social Network Approach](assets/files/M2PL_Ising.pdf)".
+ *Working paper*. Jefferson Leal. "Local Right-Wing Populism and Vaccination: Evidence from the COVID-19 Pandemic in Brazil".
  <details>
   <summary>Abstract</summary>
-  Congressional social ties influence legislative processes and outcomes, but measuring these ties presents a significant challenge. Recent research has adopted social network models to assess congressional social, but existing applications are limited in that they rely on indirect measurements using proxy relations, such as cosponsorship, and fail to account for party influence or ideological preferences of legislators, which may be more decisive factors. In this paper, we aim to directly measure social ties from roll call votes while taking account of partisan-ideological preferences. We combine the partisan-ideological and social approaches to roll call analysis through a fused latent factor and social network model. This model decomposes the variation in votes explained by the partisan-ideological factors from that of the social network, while prioritizing the former. Applying the model to the Senate, we find that the fitted latent factors capture known partisan and ideological patterns from previous literature, while social networks reflect notable friendships and geographical proximity.
+  Despite a growing literature on the impacts of national leaders' populist stances and voters' populist attitudes, less is known about how local politicians' right-wing populism influences policy outcomes. The study focuses on the Brazilian case during the COVID-19 pandemic, where the right-populist President Jair Bolsonaro successfully employed an anti-science stance to spread skepticism towards vaccinations and social distancing measures. I use a Naïve Bayes classifier and leverage over 14,000 mayoral manifestos to present a novel measure of local-level right-wing populism. Using a close-elections regression discontinuity design, I document a significant decrease in COVID-19 vaccination rates in municipalities run by right-wing populist mayors. This effect is most likely attributable to these authorities sending mixed signals about the severity of the health crisis and exerting low effort to promote vaccination.
 </details>
 <br>
- *Working paper*. Yuki Atsusaka, Diana Da In Lee, and Hane Lee. "Quantifying Group-Based Electoral Competitiveness".
-  <details>
-  <summary>Abstract</summary>
-  How can we measure electoral competitiveness among multiple candidates with varying group affiliations? We propose the concept of group-level electoral competitiveness, which generalizes the conventional margin of victory to any number of candidates and group affiliations while avoiding strong assumptions about perfect coordination among in-group candidates. We demonstrate its applicability in three domains of American politics: racial competitiveness in congressional elections, partisan competitiveness in local elections, and competitiveness across candidates' occupational backgrounds. Our findings reveal patterns of group advantage and disadvantage that are obscured by traditional measures. By extending electoral margins to group-based competition, this paper provides a unified and flexible methodological framework for evaluating long-standing questions in the study of electoral democracy. The proposed measure is implemented via an open-source software R package gmv.
-</details>
-<br>
- *Working paper*. Hane Lee. "The Polarizing Middle Ground: Independents in Public Opinion Polarization".
- <details>
-  <summary>Abstract</summary>
-  Coming soon!
-</details>
-<br>
-Chris Andrade, Jonathan Auerbach, Icaro Bacelar, Hane Lee, Angela Tan, Mariana Vazquez, and Owen Ward (2023). "[Does it pay to park in front of a fire hydrant?](https://academic.oup.com/jrssig/article/20/1/28/7034189?login=true)". *Significance* 20(1), pp. 28–30.
+
 
 <br> <br>
-
+<!--
 ## Teaching
 ### Instructor (at Columbia University)
 - Calculus-based Introduction to Statistics (Summer 2024) [[Syllabus]](assets/files/S1201_syllabus.pdf)
@@ -80,6 +67,7 @@ Undergraduate
 - Probability and Random Variables (18.600)
 - Linear Algebra (18.06)
 - Differential Equations (18.03)
+-->
 
 <!-- {% include_relative _includes/publications.md %} -->
 

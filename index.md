@@ -42,36 +42,21 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 
 <br> <br>
-<!--
+
 ## Teaching
-### Instructor (at Columbia University)
-- Calculus-based Introduction to Statistics (Summer 2024) [[Syllabus]](assets/files/S1201_syllabus.pdf)
 
-### Teaching Assistant (at Columbia University)
+### Teaching Assistant (at ICPSR Summer Program in Quantitative Methods)
 
-Graduate
+- Matrix Algebra, Calculus, and Probability (Summer 2025)
+- Causal Inference II for the Social Science (Summer 2025)
 
-- Probability Theory (Fall 2021, Spring 2021, Fall 2020)
-- Statistical Inference (Fall 2023)
-- Accelerated Probability Theory/Statistical Inference (Fall 2022, Spring 2023, Fall 2024)
-- Statistical Machine Learning (Spring 2022)
-- Linear Regression Models (Spring 2024)
-- Bayesian Statistics (Summer 2022)
+### Teaching Assistant (at University of Rochester)
 
 Undergraduate
 
-- Introduction to Statistics (Spring 2020)
-- Introduction to Statistical Reasoning (Fall 2019)
-
-### Tutor (at MIT HKN and Math Learning Center)
-
-Undergraduate
-
-- Signals and Systems (6.003)
-- Probability and Random Variables (18.600)
-- Linear Algebra (18.06)
-- Differential Equations (18.03)
--->
+- Senior Honors Seminar (Fall 2024, Spring 2025)
+- Introduction to International Political Economy (Spring 2024)
+- Introduction to Comparative Politics (Fall 2024)
 
 <!-- {% include_relative _includes/publications.md %} -->
 

@@ -2,9 +2,8 @@
 layout: homepage
 ---
 <br>
-<div style="text-align: center;">
-  <img src="{{ '/assets/img/jeff_profile_pic.png' | relative_url }}" 
-       alt="Jefferson Leal">
+<div style="text-align:center;">
+  <img src="/assets/img/jeff_profile_pic.png" alt="Jefferson Leal">
 </div>
 <br><br> <br> 
 

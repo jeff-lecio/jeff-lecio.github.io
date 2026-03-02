@@ -1,22 +1,22 @@
 # Basic Information 
-title: Hane Lee
-pronoun: they/them
-position: Postdoctoral Researcher
-affiliation: University of Chicago
-email: hanelee (at) uchicago.edu
+title: Jefferson Leal
+pronoun: he/him
+position: PhD Candidate
+affiliation: University of Rochester
+email: jefferson.leal (at) rochester.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: political science, computational social science, NLP, causal inference, Brazil politics
+description: Jefferson Leal is a PhD Candidate in Political Science at the University of Rochester, specializing in computational text analysis and Latin American politics.
+canonical: https://jeff-lecio.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 #google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/hanelee
-linkedin: https://www.linkedin.com/in/hane-lee/
+#cv_link: assets/files/curriculum_vitae.pdf
+#github_link: https://github.com/hanelee
+#linkedin: https://www.linkedin.com/in/hane-lee/
 #twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
@@ -39,7 +39,7 @@ font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+#google_analytics: UA-111540567-4
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

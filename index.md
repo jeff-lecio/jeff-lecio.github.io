@@ -2,9 +2,9 @@
 layout: homepage
 ---
 <br>
-<div align="center">
-![prof_pic](jeff_profile_pic.png)
-</div>
+<p align="center">
+  <img src="/assets/img/jeff_profile_pic.png" alt="Jefferson Leal">
+</p>
 <br><br> <br> 
 
 
